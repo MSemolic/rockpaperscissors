@@ -1,0 +1,48 @@
+html {
+    width: 100%;
+    background-color: azure;
+}
+
+.container {  
+    display: grid;
+    gap: 0px 0px;   
+    grid-template-areas:
+      ". h h ."
+      "cc pa pa pc"
+      "cc pa pa pc";
+  }
+  
+.header { grid-area: h; }
+.playarea { 
+    grid-area: pa;
+    justify-self:stretch;
+    background-color: aqua;
+    width: auto;
+    height: 500px;
+}
+.computerchoice { 
+    grid-area: cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.playerchoice { 
+    grid-area: pc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+ }
+  
+
+figure .icon {
+    width: 150px;
+    height: 150px;
+}
+
+figure .caption {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
