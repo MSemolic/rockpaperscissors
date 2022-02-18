@@ -76,6 +76,7 @@ figure .icon {
     height: 150px;
     background-color: white;
     border-radius: 25px;
+    box-shadow: 0px 1px 3px;
     padding: 12px;
 }
 
